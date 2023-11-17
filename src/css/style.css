@@ -27,6 +27,11 @@ select{
     transition: background-color 1.5s, box-shadow 1.5s;
 }
 
+.container:not(:hover) {
+    background-color: rgba(68, 0, 255, 0.466);
+    transition: background-color 2.5s, box-shadow 3.5s;
+}
+
 .cat{
     display: flex;
     justify-content: center;
@@ -52,7 +57,7 @@ select{
 }
 
 .loader{
-    background-color: rgb(127, 129, 255);
+    background-color: rgb(127, 229, 255);
 }
 
 .hidden{
