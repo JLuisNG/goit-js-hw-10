@@ -10,30 +10,21 @@ select{
     font-size: 20px;
     border-radius: 50px;
     text-align: center;
-    background-color: rgb(211, 231, 255);
+    background-color: rgba(255, 211, 211, 0.274);
     
 }
 
 .container{
     max-width: 1000px;
     padding: 50px;
-
     border-radius: 20px;
-    background-color: #e9ebcb;
+    background-color: #e5cbeb;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
 .container:hover{
     background-color: rgba(0, 195, 255, 0.171);
     transition: background-color 1.5s, box-shadow 1.5s;
-}
-
-.cat-info{
-    margin-top: 30px;
 }
 
 .cat{
@@ -48,10 +39,6 @@ select{
     max-width: 500px;
 }
 
-.temperament{
-    margin-top: 10px;
-}
-
 .subtitle{
     font-weight: bold;  
 }
@@ -59,7 +46,7 @@ select{
 .error, .loader{
     font-size: 20px;
     font-weight: bold;
-    background-color: rgb(255, 127, 127);
+    background-color: rgb(255, 0, 0);
     padding: 10px;
     border-radius: 50px;
 }
