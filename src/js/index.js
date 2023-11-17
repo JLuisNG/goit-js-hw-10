@@ -13,8 +13,6 @@ function fetchBreeds(elementHTML, ids){
         })
         .catch((err)=> console.log('ERROR', err))
 }
-
-
 const selectInput = document.querySelector('.breed-select')
 const container = document.querySelector('.cat-info')
 const errorMsg = document.querySelector('.error')

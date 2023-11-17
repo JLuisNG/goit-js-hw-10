@@ -4,7 +4,7 @@ function fetchCatByBreed(breed, elmHTML, errorHTML, loaderHTML){
     fetch(`https://api.thecatapi.com/v1/images/search?&breed_ids=${breed}`,
     {
         headers: {
-            "x-api-key": "live_p96Tzi83Ngw4yzga2N6xeGJHmAPzAS0cWGbUjpEnJU4Grb15UTKM9QNyZlncrvMj"
+            "x-api-key": "live_QWSSN5WiRmCPLvVKTI32dq3YGqOMWivZEZDJ7tEct8nW4suFFwjT1KMIiVzb7acZ"
         }
     })
         .then(result => result.json())
@@ -34,5 +34,4 @@ function fetchCatByBreed(breed, elmHTML, errorHTML, loaderHTML){
             loaderHTML.classList.add('hidden')
         )
 }
-
 export {fetchCatByBreed}
