@@ -1,5 +1,4 @@
 import { fetchCatByBreed } from "./cats-api";
-
 function fetchBreeds(elementHTML, ids){
     fetch('https://api.thecatapi.com/v1/breeds')
         .then(result=> result.json())
