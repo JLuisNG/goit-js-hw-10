@@ -35,9 +35,13 @@ select{
     transition: background-color 2.5s, box-shadow 3.5s;
 }
 
+.gallery {
+    position: relative;
+    z-index: 1;
+}
+
 .gallery::after {
-    left: var(--ledX);
-    top: var(--ledY);
+    border: #d20bff;
 }
 
 .cat{

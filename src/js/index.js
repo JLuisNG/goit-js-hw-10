@@ -28,3 +28,5 @@ selectInput.addEventListener('change', (e)=>{
 
     fetchCatByBreed(catsIds[selectInput.value], container, errorMsg, loadingMsg)
 })
+
+import './gallery-led.js';
