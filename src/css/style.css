@@ -35,13 +35,13 @@ select{
     transition: background-color 2.5s, box-shadow 3.5s;
 }
 
-.gallery {
+.container {
     position: relative;
     z-index: 1;
 }
 
-.gallery::after {
-    border: #d20bff;
+.container::after {
+    color: rgba(32, 139, 46, 0.842);
 }
 
 .cat{
